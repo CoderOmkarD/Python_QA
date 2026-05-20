@@ -1,0 +1,12 @@
+Information={
+    "Name":"Rahul",
+    "Age":45,
+    "City":"Pune",
+    "Marks":89.984,
+    "City":"Mumbai"
+}
+print(Information)
+Information["Age"]=26
+print(Information['City'])
+print(Information["Age"])
+print(Information)

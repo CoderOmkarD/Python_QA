@@ -1,0 +1,14 @@
+#One Function Can Call Another function
+def Phoenix():
+    print("Inside Phoenix")
+    
+    def zara():
+        print("Inside Zara")
+    
+        
+def main():
+    Phoenix()
+    
+if __name__=="__main__":
+    main()
+    
